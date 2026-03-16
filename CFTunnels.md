@@ -11,7 +11,7 @@
 ## 🛠️ 课前准备
 
 1. 一个 **Cloudflare 账号**，并且已经在 CF 托管了一个属于你的域名（例如 `example.com`）。
-2. 一台安装了 Linux (Debian/Ubuntu 推荐) 的 VPS，并已成功安装 [Sing-box-LPMG 一键脚本](https://github.com/LuoPoJunZi/Sing-box-LPMG)。
+2. 一台安装了 Linux (Debian/Ubuntu 推荐) 的 VPS，并已成功安装 [Sing-box-LPMG 一键脚本](https://github.com/oneevsss/sing-box)。
 
 ---
 

@@ -82,7 +82,7 @@ about() {
     msg
     msg "============== 关于本脚本 =============="
     msg "维护作者: LuoPoJunZi (魔改版)"
-    msg "项目 Github: $(msg_ul https://github.com/LuoPoJunZi/Sing-box-LPMG)"
+    msg "项目 Github: $(msg_ul https://github.com/oneevsss/sing-box)"
     msg "特别鸣谢: 基于 233boy 原版二次开发"
     msg "----------------------------------------"
     msg "$is_core_name 官网: $(msg_ul https://sing-box.sagernet.org/)"

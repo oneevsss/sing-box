@@ -1,10 +1,10 @@
 # 快速安装脚本
 ## `LuoPoJunZi`魔改版
 ```bash
-bash <(curl -s -L https://raw.githubusercontent.com/LuoPoJunZi/Sing-box-LPMG/main/install.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/oneevsss/sing-box/main/install.sh)
 ```
 ```bash
-bash <(curl -s -L https://github.com/LuoPoJunZi/Sing-box-LPMG/raw/main/install.sh)
+bash <(curl -s -L https://github.com/oneevsss/sing-box/raw/main/install.sh)
 ```
 ## `233boy`大佬的sing-box
 ```bash
@@ -49,7 +49,7 @@ echo -e "\n✅ 物理清理完成！系统已恢复纯净状态。"
 当你看到 `✅ 物理清理完成！` 的提示后，你可以放心地重新运行你更新好的官方安装指令，重新部署完美版：
 
 ```bash
-bash <(curl -s -L https://github.com/LuoPoJunZi/Sing-box-LPMG/raw/main/install.sh)
+bash <(curl -s -L https://github.com/oneevsss/sing-box/raw/main/install.sh)
 
 ```
 
@@ -100,7 +100,7 @@ bash <(curl -s -L https://github.com/LuoPoJunZi/Sing-box-LPMG/raw/main/install.s
 ### 2. 安装/重装命令
 
 ```bash
-bash <(curl -s -L https://raw.githubusercontent.com/LuoPoJunZi/Sing-box-LPMG/main/install.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/oneevsss/sing-box/main/install.sh)
 
 ```
 
@@ -192,7 +192,7 @@ sb
 
 ## 六、 相关资源
 
-* **GitHub 项目地址**：[LuoPoJunZi/Sing-box-LPMG](https://github.com/LuoPoJunZi/Sing-box-LPMG)
+* **GitHub 项目地址**：[oneevsss/sing-box](https://github.com/oneevsss/sing-box)
 * **反馈问题**：请在 GitHub Issues 提交。
 
 ## 七、 233boy大佬的文档

@@ -1386,7 +1386,7 @@ info() {
         msg "$a $tt= \e[${is_color}m${is_info_str[$i]}\e[0m"
     done
     if [[ $is_new_install ]]; then
-        warn "首次安装请查看项目文档: $(msg_ul https://github.com/LuoPoJunZi/Sing-box-LPMG)"
+        warn "首次安装请查看项目文档: $(msg_ul https://github.com/oneevsss/sing-box)"
     fi
     if [[ $is_url ]]; then
         msg "------------- ${info_list[12]} -------------"
@@ -1399,7 +1399,7 @@ info() {
         msg "------------- no-auto-tls INFO -------------"
         msg "端口(port): $port"
         msg "路径(path): $path"
-        msg "\e[41m帮助(help)\e[0m: $(msg_ul https://github.com/LuoPoJunZi/Sing-box-LPMG)"
+        msg "\e[41m帮助(help)\e[0m: $(msg_ul https://github.com/oneevsss/sing-box)"
     fi
     footer_msg
 }
@@ -1734,7 +1734,7 @@ add() {
                 get_port
                 is_https_port=$tmp_port
                 warn "端口 (80 或 443) 已经被占用, 你也可以考虑使用 no-auto-tls"
-                msg "\e[41m no-auto-tls 帮助(help)\e[0m: $(msg_ul https://github.com/LuoPoJunZi/Sing-box-LPMG)\n"
+                msg "\e[41m no-auto-tls 帮助(help)\e[0m: $(msg_ul https://github.com/oneevsss/sing-box)\n"
                 msg "\n Caddy 将使用非标准端口实现自动配置 TLS, HTTP:$is_http_port HTTPS:$is_https_port\n"
                 msg "请确定是否继续???"
                 pause
@@ -1846,7 +1846,7 @@ footer_msg() {
     fi
     
     msg "------------- END -------------"
-    msg "项目(Github): $(msg_ul https://github.com/LuoPoJunZi/Sing-box-LPMG)"
+    msg "项目(Github): $(msg_ul https://github.com/oneevsss/sing-box)"
     msg
 }
 
@@ -1960,7 +1960,7 @@ uninstall() {
     fi
     _green "\n卸载完成!"
     msg "脚本哪里需要完善? 请反馈"
-    msg "反馈问题) $(msg_ul https://github.com/LuoPoJunZi/Sing-box-LPMG/issues)\n"
+    msg "反馈问题) $(msg_ul https://github.com/oneevsss/sing-box/issues)\n"
 }
 
 manage() {

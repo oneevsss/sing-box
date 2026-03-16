@@ -1,7 +1,7 @@
 #!/bin/bash
 
 author=LuoPoJunZi
-# github=https://github.com/LuoPoJunZi/Sing-box-LPMG
+# github=https://github.com/oneevsss/sing-box
 
 # bash fonts colors
 red='\e[31m'
@@ -87,7 +87,7 @@ is_sh_dir=$is_core_dir/sh
 # ==================================================================
 # 核心修改：硬编码你的 Github 仓库地址，防止后续更新报错或找错仓库
 # ==================================================================
-is_sh_repo="LuoPoJunZi/Sing-box-LPMG"
+is_sh_repo="oneevsss/sing-box"
 
 is_pkg="wget unzip tar qrencode"
 is_config_json=$is_core_dir/config.json
