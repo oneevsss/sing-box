@@ -1,6 +1,6 @@
 #!/bin/bash
 
-author=LuoPoJunZi
+author=oneev
 # github=https://github.com/oneevsss/sing-box
 
 # bash fonts colors

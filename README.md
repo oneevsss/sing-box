@@ -1,5 +1,5 @@
 # 快速安装脚本
-## `LuoPoJunZi`魔改版
+## `oneev`魔改版
 ```bash
 bash <(curl -s -L https://raw.githubusercontent.com/oneevsss/sing-box/main/install.sh)
 ```

@@ -434,7 +434,7 @@ create() {
         
         local safe_remark="${custom_remark//\//_}"
         if [[ -z "$safe_remark" ]]; then
-            safe_remark="luopojunzi"
+            safe_remark="oneev"
         fi
 
         if [[ $host ]]; then
@@ -1100,7 +1100,7 @@ get() {
             net=socks
             is_protocol=$net
             if [[ ! $is_socks_user ]]; then
-                is_socks_user=luopojunzi
+                is_socks_user=oneev
             fi
             if [[ ! $is_socks_pass ]]; then
                 is_socks_pass=$uuid
@@ -1251,7 +1251,7 @@ info() {
         local stripped_port="${tmp_name%-[0-9]*}"
         custom_remark="${stripped_port#*-}"
         if [[ -z "$custom_remark" || "$custom_remark" == "$is_protocol" ]]; then
-            custom_remark="luopojunzi"
+            custom_remark="oneev"
         fi
     fi
 
@@ -1820,13 +1820,13 @@ add() {
     if [[ $is_main_start ]]; then
         echo ""
         echo -e "--------------------------------------------------------"
-        read -p "请输入该节点的自定义备注 (如留空按回车，则默认使用 luopojunzi): " custom_remark
+        read -p "请输入该节点的自定义备注 (如留空按回车，则默认使用 oneev): " custom_remark
         if [[ -z "$custom_remark" ]]; then
-            custom_remark="luopojunzi"
+            custom_remark="oneev"
         fi
         echo -e "--------------------------------------------------------"
     else
-        custom_remark="luopojunzi"
+        custom_remark="oneev"
     fi
 
     if [[ $is_install_caddy ]]; then
