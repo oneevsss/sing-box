@@ -1,6 +1,6 @@
 #!/bin/bash
 
-is_sh_ver="v1.2"
+is_sh_ver="v1.0"
 
 protocol_list=(
     TUIC
