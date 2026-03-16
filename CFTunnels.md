@@ -1,17 +1,17 @@
 # 🚀 终极指南：使用 Cloudflare Tunnels 结合 Sing-box 实现无公网 IP 内网穿透
 
-在科学上网和节点搭建的过程中，没有公网 IP、服务器被墙、或者端口被深度阻断是极其常见的问题。(AI写的教程，见谅)
+在科学上网和节点搭建的过程中，没有公网 IP、服务器被墙、或者端口被深度阻断是极其常见的问题。(AI写的教程)
 
 **Cloudflare Tunnel (CFtunnel)** 是解决这一痛点的终极武器。它能让你的本地服务主动与 Cloudflare 边缘节点建立安全加密隧道，无需开放任何公网端口，即可通过 Cloudflare 的 CDN 网络将流量安全转发出来。
 
-配合 **Sing-box-LPMG** 魔改脚本，你可以实现一键全自动部署。以下是完整的保姆级图文教程。
+配合 **sing-box** 魔改脚本，你可以实现一键全自动部署。以下是完整的保姆级图文教程。
 
 ---
 
 ## 🛠️ 课前准备
 
 1. 一个 **Cloudflare 账号**，并且已经在 CF 托管了一个属于你的域名（例如 `example.com`）。
-2. 一台安装了 Linux (Debian/Ubuntu 推荐) 的 VPS，并已成功安装 [Sing-box-LPMG 一键脚本](https://github.com/oneevsss/sing-box)。
+2. 一台安装了 Linux (Debian/Ubuntu 推荐) 的 VPS，并已成功安装 [sing-box 一键脚本](https://github.com/oneevsss/sing-box)。
 
 ---
 
@@ -50,7 +50,7 @@
 
 拿到 Token 后，剩下的脏活累活全部交给脚本自动完成。
 
-1. SSH 登录你的 Linux 服务器，输入命令 `sb` 唤出 Sing-box-LPMG 魔改管理面板。
+1. SSH 登录你的 Linux 服务器，输入命令 `sb` 唤出 sing-box 魔改管理面板。
 2. 输入 `1` 选择 **[添加配置]**。
 3. 在协议列表中，找到 **[隧道穿透]** 区块，输入对应的序号（如 `21` 选择 CFtunnel）。
 4. **分配端口**：提示输入端口时，**直接敲回车**，脚本会为你自动分配一个 20000 以上的空闲内部端口。

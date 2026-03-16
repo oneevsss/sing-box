@@ -1409,7 +1409,7 @@ show_all_nodes() {
     is_show_all=1
     clear
     echo -e "\e[96m=====================================================\e[0m"
-    echo -e "              Sing-box-LPMG 节点配置总览"
+    echo -e "              sing-box 节点配置总览"
     echo -e "\e[96m=====================================================\e[0m\n"
     
     local config_count=0
@@ -2043,7 +2043,7 @@ is_main_menu() {
     while :; do
         clear
         echo -e "\e[96m=====================================================\e[0m"
-        echo -e "\e[96m          Sing-box-LPMG 魔改管理面板 $is_sh_ver\e[0m"
+        echo -e "\e[96m          sing-box 魔改管理面板 $is_sh_ver\e[0m"
         echo -e "\e[96m=====================================================\e[0m"
         
         local caddy_show=""
